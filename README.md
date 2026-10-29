@@ -2,8 +2,8 @@
 
 Servidor MCP construido con FastMCP 4 sobre las 17,167 series del Banco Central de Reserva del Perú, conectado a Claude
 Code. Además de buscar series y resumirlas, trae una herramienta propia, **`tasa_real`**: resta la inflación a 12 meses
-de Lima (PN01273PM) a la tasa de referencia (PD04722MM) y dice, mes a mes, si la política monetaria fue restrictiva,
-neutral o expansiva, citando la URL de cada dato.
+de Lima (PN01273PM) a la tasa de referencia (PD04722MM) y aproxima, mes a mes, si la postura monetaria fue
+relativamente restrictiva, neutral o expansiva, citando la URL de cada dato.
 
 Proyecto de la sesión 04 (MCP en Claude Code) del curso Data Science con Python.
 
