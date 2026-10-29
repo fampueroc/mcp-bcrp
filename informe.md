@@ -2,7 +2,7 @@
 
 Servidor MCP con FastMCP 4 sobre las 17,167 series del BCRP: `buscar_series`, `serie`, `resumen` y una herramienta
 propia, **`tasa_real`**, que cruza la tasa de referencia (PD04722MM) con la inflación a 12 meses de Lima (PN01273PM)
-y dice, mes a mes, si la política monetaria fue restrictiva, neutral o expansiva. Además trae el recurso
+y aproxima, mes a mes, si la postura monetaria fue relativamente restrictiva, neutral o expansiva. Además trae el recurso
 `bcrp://serie/{codigo}` y los prompts `postura_monetaria(desde, hasta)` e `informe(tema)`.
 
 `uv run pytest -q` → **8 passed**. `test_server.py` no se modificó.
